@@ -12,7 +12,7 @@ An AI-powered HR assistant built with LangGraph that lets you query employee dat
 ## Tech Stack
 
 - **LangGraph** — agent orchestration and state management
-- **Groq (Llama 3.3 70B)** — LLM for the agent and data generation
+- **Groq (GPT OSS 120B)** — LLM for the agent and data generation
 - **Google Gemini Embeddings** — semantic vector embeddings
 - **MongoDB Atlas** — vector search and conversation checkpointing
 - **Express** — REST API server
