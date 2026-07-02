@@ -67,7 +67,7 @@ export async function callAgent(
   const toolNode = new ToolNode<typeof GraphState.State>(tools);
 
   const model = new ChatGroq({
-    model: "llama-3.3-70b-versatile",
+    model: "openai/gpt-oss-120b",
     temperature: 0,
   }).bindTools(tools);
 

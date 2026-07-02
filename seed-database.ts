@@ -9,7 +9,7 @@ import "dotenv/config";
 const client = new MongoClient(process.env.MONGODB_ATLAS_URI as string);
 
 const llm = new ChatGroq({
-  model: "llama-3.3-70b-versatile",
+  model: "openai/gpt-oss-120b",
   temperature: 0.7,
 });
 
